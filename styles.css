@@ -1,0 +1,183 @@
+/* General */
+* {
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+
+p, li {
+  font-size: 14px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.clear-both {
+  clear:both;
+}
+
+.half-width {
+  width: 46%;
+  margin: 0 2%;
+  /* Seems to start from the left */
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin: 8px 0 0 0;
+  display: inline-block;
+}
+  .yellow-button {
+    background-color: rgb(240,146,51);
+  }
+  .red-button {
+    background-color: rgb(203,56,55);
+  }
+  .grey-button {
+    background-color: rgb(49,68,88);
+  }
+
+/* Navigation area */
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 32px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  float: left;
+  margin: 0 0 0 20px;
+}
+.top-links {
+  /* display: inline-block; */
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block; /* Forces menu buttons next to each other*/
+  margin: 0 10px;
+}
+
+/* Header */
+header {
+  background-color: #235D7D;
+  background-image: url(https://static.npmjs.com/images/hero-cityscape.svg);
+  height: 300px;
+  color: white;
+}
+
+header a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.header-search {
+  padding-top: 10px;
+  /* margin: 0 20px; */
+}
+
+.header-search img {
+  height: 30px;
+  background-color: rgb(31, 82, 111);
+  margin: 0 10px;
+}
+
+.header-search a {
+  margin-top: 7px;
+  /* vertical-align: middle; */
+}
+
+.search-bar {
+  background-color: rgb(31, 82, 111);
+  width: calc(100vw - 360px);
+  /* margin: 0 10px; */
+  border: 0 solid grey;
+  height: 30px;
+}
+ 
+.center-div {
+  width: 800px;
+  margin: 0 auto;
+  color: white;
+}
+  
+.center-div-nocolor {
+  width: 800px;
+  margin: 0 auto; 
+}
+ 
+
+ /* -- Colaboration section (orgs)-- */
+#orgs {
+  color: white;
+  background-color: rgb(39,53,71);
+  padding: 50px 0;
+}
+
+#orgs a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+#orgs img {
+  padding-top: 20px;
+}
+
+/* Summary, what is npm */
+#summary {
+  background-image: url("https://static.npmjs.com/images/npm-is-BOXES.svg");
+  background-size: cover;
+  padding: 50px 0 150px 0;
+}
+
+#summary a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+/* packages */
+#packages {
+  margin-top: 48px;
+  background-color: white;
+  /* should not be necessary? standard is white? */
+}
+
+#packages h2, h3 {
+  color: rgb(83,88,98);
+  text-align: center;
+}
+
+#packages p {
+  color: rgb(135, 145, 156);
+  text-align: center;
+}
+
+#packages a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+.three-div-wide {
+  width: 28%;
+  display: inline-block;
+  margin: 20px 2% 0;
+  vertical-align: top; 
+  /* vertical align so the divs line up in the top instead of bottom */
+}
+
+.three-div-wide img {
+  margin: 0 auto;
+  display: block;
+}
